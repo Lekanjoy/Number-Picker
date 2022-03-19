@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container" action="">
+        <div class="box1">
+        <label class="label" for="number">Pick a Number From 1-20:</label>
+        <div id="msg" class="error"></div>
+    <input type="number" min="0" oninput="validity.valid||(value='');"
+     id="num" class="num"><br>
+    <input type="submit" value="Pick" id="sub" class="sub">
+    </div>
+    </form>
+    
+       <script src="main.js" defer></script>
+</body>
+</html>
